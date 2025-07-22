@@ -23,7 +23,8 @@
 - Python 3.10+
 - `ffmpeg`（音訊播放必備）
 - 取得 `cookies.txt`  
-  → 安裝 Chrome 擴充套件 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)，登入 YouTube 後匯出並命名為 `cookies.txt`。
+  → 安裝 Chrome 擴充套件 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)，登入 YouTube 後匯出後得到 `youtube_cookies.json`。
+  → 可以透過內建的 `convert_cookies.py` 把 `youtube_cookies.json` 轉換成 `cookies.txt`。
 
 建立 `.env` 檔案並填入你的 Discord Bot Token：
 
